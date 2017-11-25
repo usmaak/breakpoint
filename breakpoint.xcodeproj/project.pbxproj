@@ -15,6 +15,10 @@
 		5424C9B21FC8FED90002ED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5424C9B01FC8FED90002ED98 /* LaunchScreen.storyboard */; };
 		5424C9BF1FC903F80002ED98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5424C9BE1FC903F80002ED98 /* GoogleService-Info.plist */; };
 		5424C9C11FC9062F0002ED98 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9C01FC9062F0002ED98 /* DataService.swift */; };
+		5424C9C31FC9169A0002ED98 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9C21FC9169A0002ED98 /* AuthVC.swift */; };
+		5424C9C51FC916AD0002ED98 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9C41FC916AD0002ED98 /* LoginVC.swift */; };
+		5424C9C71FC917370002ED98 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9C61FC917370002ED98 /* InsetTextField.swift */; };
+		5424C9C91FC92B850002ED98 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9C81FC92B850002ED98 /* ShadowView.swift */; };
 		EE76EDB98A344E7820B2FC39 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2046854E2D68AB649A48AA /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		5424C9B31FC8FED90002ED98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5424C9BE1FC903F80002ED98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5424C9C01FC9062F0002ED98 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5424C9C21FC9169A0002ED98 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		5424C9C41FC916AD0002ED98 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5424C9C61FC917370002ED98 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		5424C9C81FC92B850002ED98 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		C4B86EB9A01DF0727739383A /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +95,8 @@
 			children = (
 				5424C9A71FC8FED90002ED98 /* FirstViewController.swift */,
 				5424C9A91FC8FED90002ED98 /* SecondViewController.swift */,
+				5424C9C21FC9169A0002ED98 /* AuthVC.swift */,
+				5424C9C41FC916AD0002ED98 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +104,8 @@
 		5424C9BA1FC8FF280002ED98 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5424C9C61FC917370002ED98 /* InsetTextField.swift */,
+				5424C9C81FC92B850002ED98 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5424C9C31FC9169A0002ED98 /* AuthVC.swift in Sources */,
 				5424C9AA1FC8FED90002ED98 /* SecondViewController.swift in Sources */,
+				5424C9C51FC916AD0002ED98 /* LoginVC.swift in Sources */,
 				5424C9A61FC8FED90002ED98 /* AppDelegate.swift in Sources */,
+				5424C9C91FC92B850002ED98 /* ShadowView.swift in Sources */,
 				5424C9A81FC8FED90002ED98 /* FirstViewController.swift in Sources */,
+				5424C9C71FC917370002ED98 /* InsetTextField.swift in Sources */,
 				5424C9C11FC9062F0002ED98 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
