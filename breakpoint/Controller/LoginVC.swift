@@ -8,12 +8,19 @@
 
 import UIKit
 
+extension LoginVC: UITextFieldDelegate {
+    
+}
+
 class LoginVC: UIViewController {
 
+    @IBOutlet weak var passwordField: InsetTextField!
+    @IBOutlet weak var emailField: InsetTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        emailField.delegate = self
+        passwordField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +28,34 @@ class LoginVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func signinButtonWasPressed(_ sender: UIButton) {
+        if emailField.text != nil && passwordField.text != nil {
+            AuthService.instance.loginUser(withEmail: emailField.text!, andPassword: passwordField.text!, loginComplete: { (success, error) in
+                if success {
+                    self.dismiss(animated: true, completion: nil)
+                }
+                else {
+                    debugPrint(error?.localizedDescription as Any)
+                }
+            })
+            
+            AuthService.instance.registerUser(withEmail: self.emailField.text!, andPassword: self.passwordField.text! , userCreationComplete: { (success, error) in
+                if success {
+                    AuthService.instance.loginUser(withEmail: self.emailField.text!, andPassword: self.passwordField.text!, loginComplete: { (success, nil) in
+                        if success {
+                            self.dismiss(animated: true, completion: nil)
+                            print("Successfully registered user.")
+                        }
+                        else {
+                            print(String(describing: error?.localizedDescription))
+                        }
+                    })
+                }
+            })
+        }
     }
-    */
-
+    
+    @IBAction func closeButtonWasPressed(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 }
