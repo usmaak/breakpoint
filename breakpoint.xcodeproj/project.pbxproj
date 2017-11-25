@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5424C9A61FC8FED90002ED98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9A51FC8FED90002ED98 /* AppDelegate.swift */; };
-		5424C9A81FC8FED90002ED98 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9A71FC8FED90002ED98 /* FirstViewController.swift */; };
-		5424C9AA1FC8FED90002ED98 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9A91FC8FED90002ED98 /* SecondViewController.swift */; };
+		5424C9A81FC8FED90002ED98 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9A71FC8FED90002ED98 /* FeedVC.swift */; };
+		5424C9AA1FC8FED90002ED98 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9A91FC8FED90002ED98 /* GroupsVC.swift */; };
 		5424C9AD1FC8FED90002ED98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5424C9AB1FC8FED90002ED98 /* Main.storyboard */; };
 		5424C9AF1FC8FED90002ED98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5424C9AE1FC8FED90002ED98 /* Assets.xcassets */; };
 		5424C9B21FC8FED90002ED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5424C9B01FC8FED90002ED98 /* LaunchScreen.storyboard */; };
@@ -28,8 +28,8 @@
 		3F2046854E2D68AB649A48AA /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5424C9A21FC8FED90002ED98 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5424C9A51FC8FED90002ED98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5424C9A71FC8FED90002ED98 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5424C9A91FC8FED90002ED98 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5424C9A71FC8FED90002ED98 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		5424C9A91FC8FED90002ED98 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		5424C9AC1FC8FED90002ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5424C9AE1FC8FED90002ED98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5424C9B11FC8FED90002ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		5424C9B91FC8FF160002ED98 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5424C9A71FC8FED90002ED98 /* FirstViewController.swift */,
-				5424C9A91FC8FED90002ED98 /* SecondViewController.swift */,
+				5424C9A71FC8FED90002ED98 /* FeedVC.swift */,
+				5424C9A91FC8FED90002ED98 /* GroupsVC.swift */,
 				5424C9C21FC9169A0002ED98 /* AuthVC.swift */,
 				5424C9C41FC916AD0002ED98 /* LoginVC.swift */,
 			);
@@ -277,12 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5424C9C31FC9169A0002ED98 /* AuthVC.swift in Sources */,
-				5424C9AA1FC8FED90002ED98 /* SecondViewController.swift in Sources */,
+				5424C9AA1FC8FED90002ED98 /* GroupsVC.swift in Sources */,
 				5424C9C51FC916AD0002ED98 /* LoginVC.swift in Sources */,
 				5424C9CB1FC92CC90002ED98 /* AuthService.swift in Sources */,
 				5424C9A61FC8FED90002ED98 /* AppDelegate.swift in Sources */,
 				5424C9C91FC92B850002ED98 /* ShadowView.swift in Sources */,
-				5424C9A81FC8FED90002ED98 /* FirstViewController.swift in Sources */,
+				5424C9A81FC8FED90002ED98 /* FeedVC.swift in Sources */,
 				5424C9C71FC917370002ED98 /* InsetTextField.swift in Sources */,
 				5424C9C11FC9062F0002ED98 /* DataService.swift in Sources */,
 			);
