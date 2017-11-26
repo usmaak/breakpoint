@@ -25,6 +25,7 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
 
         textView.delegate = self
+        sendButton.bindToKeyboard() //Button will slide up when keyboard opens
     }
 
     @IBAction func closeButtonWasPressed(_ sender: UIButton) {

@@ -22,6 +22,7 @@
 		5424C9CB1FC92CC90002ED98 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5424C9CA1FC92CC90002ED98 /* AuthService.swift */; };
 		548193831FCA5F3700B06737 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193821FCA5F3700B06737 /* MeVC.swift */; };
 		548193851FCA667B00B06737 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193841FCA667B00B06737 /* CreatePostVC.swift */; };
+		548193871FCA7D3A00B06737 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193861FCA7D3A00B06737 /* UIViewExt.swift */; };
 		EE76EDB98A344E7820B2FC39 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2046854E2D68AB649A48AA /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		5424C9CA1FC92CC90002ED98 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		548193821FCA5F3700B06737 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		548193841FCA667B00B06737 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		548193861FCA7D3A00B06737 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		C4B86EB9A01DF0727739383A /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		5424C9BC1FC900740002ED98 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				548193861FCA7D3A00B06737 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548193871FCA7D3A00B06737 /* UIViewExt.swift in Sources */,
 				548193831FCA5F3700B06737 /* MeVC.swift in Sources */,
 				5424C9C31FC9169A0002ED98 /* AuthVC.swift in Sources */,
 				5424C9AA1FC8FED90002ED98 /* GroupsVC.swift in Sources */,
