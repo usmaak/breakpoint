@@ -27,6 +27,11 @@ class CreatePostVC: UIViewController {
         textView.delegate = self
         sendButton.bindToKeyboard() //Button will slide up when keyboard opens
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.emailLabel.text = Auth.auth().currentUser?.email
+    }
 
     @IBAction func closeButtonWasPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
