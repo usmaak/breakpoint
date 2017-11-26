@@ -24,6 +24,7 @@
 		548193851FCA667B00B06737 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193841FCA667B00B06737 /* CreatePostVC.swift */; };
 		548193871FCA7D3A00B06737 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193861FCA7D3A00B06737 /* UIViewExt.swift */; };
 		548193891FCA88C700B06737 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193881FCA88C700B06737 /* FeedCell.swift */; };
+		5481938B1FCA8A1600B06737 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481938A1FCA8A1600B06737 /* Message.swift */; };
 		EE76EDB98A344E7820B2FC39 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2046854E2D68AB649A48AA /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		548193841FCA667B00B06737 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		548193861FCA7D3A00B06737 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		548193881FCA88C700B06737 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		5481938A1FCA8A1600B06737 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C4B86EB9A01DF0727739383A /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		5424C9BB1FC8FF3C0002ED98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5481938A1FCA8A1600B06737 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				5424C9A81FC8FED90002ED98 /* FeedVC.swift in Sources */,
 				5424C9C71FC917370002ED98 /* InsetTextField.swift in Sources */,
 				5424C9C11FC9062F0002ED98 /* DataService.swift in Sources */,
+				5481938B1FCA8A1600B06737 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
