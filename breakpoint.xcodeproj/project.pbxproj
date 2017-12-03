@@ -27,6 +27,7 @@
 		548193891FCA88C700B06737 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548193881FCA88C700B06737 /* FeedCell.swift */; };
 		5481938B1FCA8A1600B06737 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481938A1FCA8A1600B06737 /* Message.swift */; };
 		54B186FC1FD3A0C7002F8D1B /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B186FB1FD3A0C7002F8D1B /* GroupCell.swift */; };
+		54B186FE1FD3C1A8002F8D1B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B186FD1FD3C1A8002F8D1B /* Group.swift */; };
 		54EC6EE41FCD2352001468D8 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6EE31FCD2352001468D8 /* UserCell.swift */; };
 		EE76EDB98A344E7820B2FC39 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2046854E2D68AB649A48AA /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		548193881FCA88C700B06737 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		5481938A1FCA8A1600B06737 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		54B186FB1FD3A0C7002F8D1B /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		54B186FD1FD3C1A8002F8D1B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		54EC6EE31FCD2352001468D8 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		C4B86EB9A01DF0727739383A /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				5481938A1FCA8A1600B06737 /* Message.swift */,
+				54B186FD1FD3C1A8002F8D1B /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				5424C9C51FC916AD0002ED98 /* LoginVC.swift in Sources */,
 				5424C9CB1FC92CC90002ED98 /* AuthService.swift in Sources */,
 				5425C5E51FCD086000F946B5 /* CreateGroupsVC.swift in Sources */,
+				54B186FE1FD3C1A8002F8D1B /* Group.swift in Sources */,
 				54EC6EE41FCD2352001468D8 /* UserCell.swift in Sources */,
 				5424C9A61FC8FED90002ED98 /* AppDelegate.swift in Sources */,
 				5424C9C91FC92B850002ED98 /* ShadowView.swift in Sources */,
