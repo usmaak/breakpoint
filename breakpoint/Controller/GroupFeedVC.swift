@@ -16,13 +16,27 @@ class GroupFeedVC: UIViewController {
     @IBOutlet weak var messageTextField: InsetTextField!
     @IBOutlet weak var sendButton: UIButton!
     
+    var group: Group?
+    
+    func initData(forGroup group: Group) {
+        self.group = group
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         sendButtonView.bindToKeyboard()
-        // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.groupTitleLabel.text = group?.groupTitle
+        DataService.instance.getEmails(forGroup: group!) { (returnedEmails) in
+            self.membersLabel.text = returnedEmails.joined(separator: ", ")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -450,7 +450,7 @@
         <!--Group FeedVC-->
         <scene sceneID="KYt-Un-PUu">
             <objects>
-                <viewController id="nhi-jx-tPY" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="nhi-jx-tPY" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ph3-Qi-kQK"/>
                         <viewControllerLayoutGuide type="bottom" id="Gef-G8-uUa"/>
