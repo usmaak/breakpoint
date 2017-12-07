@@ -595,11 +595,11 @@
                             <constraint firstItem="GhI-5N-GW7" firstAttribute="leading" secondItem="h1z-ty-Zby" secondAttribute="leading" id="0rE-Ia-rlE"/>
                             <constraint firstItem="GhI-5N-GW7" firstAttribute="top" secondItem="Hjx-ud-Nla" secondAttribute="bottom" constant="8" id="EHi-M6-7pR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Hjx-ud-Nla" secondAttribute="trailing" id="Ecn-SO-HtU"/>
+                            <constraint firstItem="Hl4-zO-rbo" firstAttribute="top" secondItem="GhI-5N-GW7" secondAttribute="bottom" id="FZ8-II-DNy"/>
                             <constraint firstItem="Hjx-ud-Nla" firstAttribute="top" secondItem="RmU-1J-xeb" secondAttribute="bottom" constant="8" id="Jyq-uW-n5t"/>
                             <constraint firstAttribute="trailing" secondItem="RmU-1J-xeb" secondAttribute="trailing" id="PGe-cu-RLv"/>
                             <constraint firstItem="Gef-G8-uUa" firstAttribute="top" secondItem="Hl4-zO-rbo" secondAttribute="bottom" id="abX-0Z-WBQ"/>
                             <constraint firstAttribute="trailing" secondItem="Hl4-zO-rbo" secondAttribute="trailing" id="agm-8r-fPj"/>
-                            <constraint firstItem="Hl4-zO-rbo" firstAttribute="top" secondItem="GhI-5N-GW7" secondAttribute="bottom" id="bXJ-Vs-sBI"/>
                             <constraint firstItem="RmU-1J-xeb" firstAttribute="top" secondItem="h1z-ty-Zby" secondAttribute="top" id="j3O-l2-jud"/>
                             <constraint firstItem="Hl4-zO-rbo" firstAttribute="leading" secondItem="h1z-ty-Zby" secondAttribute="leading" id="sHP-rL-EiU"/>
                             <constraint firstAttribute="trailing" secondItem="GhI-5N-GW7" secondAttribute="trailing" id="sjM-fF-Ekm"/>
@@ -609,6 +609,7 @@
                     </view>
                     <connections>
                         <outlet property="groupTitleLabel" destination="RrI-Tt-iQF" id="nXk-uv-B4p"/>
+                        <outlet property="mainView" destination="h1z-ty-Zby" id="VJa-sC-aHy"/>
                         <outlet property="membersLabel" destination="Hjx-ud-Nla" id="TpO-RN-EVw"/>
                         <outlet property="messageTextField" destination="inZ-tL-g1T" id="XDZ-s5-jNk"/>
                         <outlet property="sendButton" destination="7nl-2S-ZP0" id="cfB-X6-PGM"/>
