@@ -54,7 +54,7 @@ class GroupFeedVC: UIViewController {
         
         self.tableView.estimatedRowHeight = 0
         self.tableView.estimatedSectionHeaderHeight = 0
-        self.tableView.estimatedSectionFooterHeight = 0
+        self.tableView.estimatedSectionFooterHeight = 0 
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -86,7 +86,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backButtonWasPressed(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
     
     @IBAction func sendButtonWasPressed(_ sender: UIButton) {
